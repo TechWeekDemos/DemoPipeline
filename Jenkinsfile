@@ -8,7 +8,7 @@ pipeline {
     /* agent { label 'mac' } */
 
     environment {
-        branch = 'master'
+        branch = 'main'
         url = 'https://github.com/TechWeekDemos/DemoPipeline.git'
     }
 
